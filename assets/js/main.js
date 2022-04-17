@@ -52,6 +52,7 @@ let swiper = new Swiper(".discover__container", {
 })
 
 /*==================== VIDEO ====================*/
+/*
 const videoFile = document.getElementById('video-file'),
       videoButton = document.getElementById('video-button'),
       videoIcon = document.getElementById('video-icon')
@@ -83,6 +84,7 @@ function finalVideo(){
 // ended, when the video ends
 videoFile.addEventListener('ended', finalVideo)
 
+*/
 /*=============== QUESTIONS ACCORDION ===============*/
 const accordionItems = document.querySelectorAll('.questions__item')
 
