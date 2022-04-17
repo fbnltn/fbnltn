@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+    
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
+    <title>Toulon Plongée</title>
+</head>
+<body>
+    <div id="preloader"></div>
+    
+    <header class="header scroll-header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Toulon Plongée</a>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Accueil</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">Présentation</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#blog" class="nav__link">Articles</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#prices" class="nav__link">Tarifs</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#questions" class="nav__link">FAQ</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                
+                <div class="nav__dark">
+                    <!-- Theme change button -->
+                    <span class="change-theme-name">Mode sombre</span>
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+                </div>
+                
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+            
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+    
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <img src="assets/img/home1.jpg" alt="" class="home__img">
+            
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__data-subtitle">Plongez dans le grand bain</span>
+                    <h1 class="home__data-title">Découvrez Les <br><b>Beautés</b> Des <br><b>Profondeurs </b></h1>
+                    <a href="#contact" class="button">Contact</a>
+                    
+                </div>
+                
+                <div class="home__social">
+                    <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                        <i class="ri-facebook-box-fill"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+                    <a href="https://www.youtube.com/" target="_blank" class="home__social-link">
+                        <i class="ri-youtube-fill"></i>
+                    </a>
+                </div>
+                
+                <div class="home__info">
+                    <div>
+                        <span class="home__info-title">De nouveaux articles à découvrir</span>
+                        <a href="" class="button button--flex button--link home__info-button">
+                            Plus <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="home__info-overlay">
+                        <img src="assets/img/home2.jpg" alt="" class="home__info-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title about__title"> à propos de nous</h2>
+                    <p class="about__description">
+                        Toujours en petits comités, nous vous guidons pour découvrir les sites mythiques de la région.
+                        <br> <br>
+                        Des moniteurs brevetés par l'Etat et formés à la gestion et à l'encadrement pour la plongée sous-marine.
+                        <br> <br>
+                        Nous proposons toutes les formations PADI et FFESSM <br> (du niveau 1 au niveau 3 et préparation au niveau 4).
+                        <br> <br>
+                        Roches profondes, tombants, épaves, avions, navires et même sous-marin sont à explorer au large de Toulon.
+                    </p>
+                </div>
+                
+                <div class="about__img">
+                    <div class="about__img-overlay">
+                        <img src="assets/img/about1.jpg" alt="" class="about__img-one">
+                    </div>
+                    
+                    <div class="about__img-overlay">
+                        <img src="assets/img/about2.jpg" alt="" class="about__img-two">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--==================== VIDEO ====================-->
+        <!-- <section class="video section">
+            <h2 class="section__title">Video Tour</h2>
+            
+            <div class="video__container container">
+                <p class="video__description">Regardez notre vidéo de présentation.</p>
+                
+                <div class="video__content">
+                    <video id="video-file">
+                        <source src="assets/video/video.mp4" type="video/mp4">
+                    </video>
+                    
+                    <button class="button button--flex video__button" id="video-button">
+                        <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                    </button>
+                </div>
+            </div>
+        </section> -->
+        
+        <!--==================== EXPERIENCE ====================-->
+        <section class="experience section">
+            <h2 class="section__title">Notre Expérience <br> pour Vous Servir </h2>
+            
+            <div class="experience__container container grid">
+                <div class="experience__content grid">
+                    <div class="experience__data">
+                        <h2 class="experience__number">11</h2>
+                        <span class="experience__description">ans</span>
+                    </div>
+                    
+                    <div class="experience__data">
+                        <h2 class="experience__number">+5000</h2>
+                        <span class="experience__description">plongées <br> guidées</span>
+                    </div>
+                    
+                    <div class="experience__data">
+                        <h2 class="experience__number">1653</h2>
+                        <span class="experience__description">plongeurs <br> satisfaits</span>
+                    </div>
+                </div>
+                
+                <div class="experience__img grid">
+                    <div class="experience__overlay">
+                        <img src="assets/img/experience1.jpg" alt="" class="experience__img-one">
+                    </div>
+                    
+                    <div class="experience__overlay">
+                        <img src="assets/img/experience2.jpg" alt="" class="experience__img-two">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--==================== DISCOVER ====================-->
+        <section class="discover section">
+            <h2 class="section__title">Quelques uns des sites <br> les plus Attractifs </h2>
+            
+            <div class="discover__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== DISCOVER 1 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src="assets/img/discover1.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">La anse au blé</h2>
+                            <span class="discover__description">Profondeur : 16m</span>
+                        </div>
+                    </div>
+                    
+                    <!--==================== DISCOVER 2 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src="assets/img/discover2.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Les Fourmigues</h2>
+                            <span class="discover__description">Profondeur : 19m</span>
+                        </div>
+                    </div>
+                    
+                    <!--==================== DISCOVER 3 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src="assets/img/discover3.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Les Embiez</h2>
+                            <span class="discover__description">Profondeur : 13m</span>
+                        </div>
+                    </div>
+                    
+                    <!--==================== DISCOVER 4 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <img src="assets/img/discover4.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <h2 class="discover__title">Le Brusc</h2>
+                            <span class="discover__description">Profondeur : 27m</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--==================== BLOG ====================-->
+        <section class="blog section" id="blog">
+            <div class="blog__container container">
+                <h2 class="section__title">Nos articles récents</h2>
+
+                <div class="blog__content grid">
+                    <article class="blog__card">
+                        <div class="blog__image">
+                            <img src="assets/img/blog1.jpg" alt="">
+                            <a href="" class="blog__button">
+                                <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+                        
+                        <div class="blog__data">
+                            <h2 class="blog__title">
+                                Déroulement d'un baptème
+                            </h2>
+                            <p class="blog__description">
+                                Nous vous encadrons pour une plongée de découverte du milieu sous marin.
+                                Vous aurez dans tous les cas un moniteur particulier, qui vous expliquera tout ce que vous devez savoir pour une immersion en douceur, en sécurité afin de profiter pleinement de ce moment magique.
+                            </p>
+                            
+                            <div class="blog__footer">
+                                <div class="blog__reaction">
+                                    <i class="ri-chat-4-line"></i>
+                                    <span>12</span>
+                                </div>
+                                <div class="blog__reaction">
+                                    <i class="ri-eye-line"></i>
+                                    <span>156</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="blog__card" onclick="console.log('Ok test')">
+                        <div class="blog__image">
+                            <img src="assets/img/blog2.jpg" alt="">
+                            <a href="" class="blog__button">
+                                <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+                        
+                        <div class="blog__data">
+                            <h2 class="blog__title">
+                                L'épave de l'Arroyo
+                            </h2>
+                            <p class="blog__description">
+                                L'exploration est très facile et elle ne demande aucune expérience particulière.
+                                Le plongeur peut en effet visiter en toute tranquilité toutes les parties du bateau de 70 mètres de longueur sur 10 mètres de largeur et où la profondeur varie entre 27 et 39 mètres.
+                            </p>
+                            
+                            <div class="blog__footer">
+                                <div class="blog__reaction">
+                                    <i class="ri-chat-4-line"></i>
+                                    <span>45</span>
+                                </div>
+                                <div class="blog__reaction">
+                                    <i class="ri-eye-line"></i>
+                                    <span>76</span>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+                <!--==================== PRICES ====================-->
+                <section class="prices section" id="prices">
+                    <h2 class="section__title">Tous Nos Tarifs</h2>
+                    
+                    <div class="prices__container container grid">
+                        <div>
+                            <!--==================== PRICES 1 ====================-->
+                            <div class="prices__content prices__close">
+                                <div class="prices__header">
+                                    <i class="ri-bubble-chart-fill prices__icon"></i>
+                                    <div>
+                                        <h1 class="prices__title">Plongées Découverte</h1>
+                                        <span class="prices__subtitle">Si vous n'avez jamais plongé</span>
+                                    </div>
+                                    <i class="ri-arrow-down-s-line prices__icon prices__arrow"></i>
+                                </div>
+                                
+                                <div class="prices__list grid">
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <h3 class="prices__name">Baptême de plongée</h3>
+                                            <span class="prices__number">69 €</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <h3 class="prices__name">Baptême de plongée particulier</h3>
+                                            <span class="prices__number">79 €</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <h3 class="prices__name">Mini stage de 3 plongées</h3>
+                                            <span class="prices__number">79 €</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!--==================== PRICES 3 ====================-->
+                            <div class="prices__content prices__close">
+                                <div class="prices__header">
+                                    <i class="ri-bubble-chart-fill prices__icon"></i>
+                                    <div>
+                                        <h1 class="prices__title">Formations FFESSM</h1>
+                                        <span class="prices__subtitle"></span>
+                                    </div>
+                                    <i class="ri-arrow-down-s-line prices__icon prices__arrow"></i>
+                                </div>
+                                
+                                <div class="prices__list grid">
+                                    <div class="prices__data">
+                                        <div>
+                                            <div class="prices__titles">
+                                                <i class="ri-bubble-chart-line"></i>
+                                                <h3 class="prices__name">Niveau 1</h3>
+                                                <span class="prices__number">320 €</span>
+                                            </div>
+                                            <p>5 plongées, cours théoriques, carnet de plongée, équipement complet, assurance</p>
+                                            <span class="prices__divider"></span>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Plongeur autonome <br> à 20 mètres</h3>
+                                            <span class="prices__number">290 €</span>
+                                        </div>
+                                        <p>4 plongées techniques, cours théoriques et assurance.</p>
+                                        <p><span>Pré requis :</span> Niveau 1 ou Open water avec 10 plongées d'exploration validées</p>
+                                        <span class="prices__divider"></span>
+                                    </div>
+                                    
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Plongeur encadré <br> à 40 mètres</h3>
+                                            <span class="prices__number">290 €</span>
+                                        </div>
+                                        <p>4 plongées techniques, cours théoriques et assurance</p>
+                                        <p><span>Pré requis :</span> Niveau 1 ou Open water avec 10 plongées d'exploration validées</p>
+                                        <span class="prices__divider"></span>
+                                    </div>
+                                    
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Niveau 2</h3>
+                                            <span class="prices__number">560 €</span>
+                                        </div>
+                                        <p>8 plongées, cours théoriques, plongées techniques, assurance</p>
+                                        <p><span>Pré requis :</span> Niveau 1 ou Open water avec 10 plongées d'exploration validées</p>
+                                        <span class="prices__divider"></span>
+                                    </div>
+                                    
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Plongeur autonome <br> à 40 mètres</h3>
+                                            <span class="prices__number">430 €</span>
+                                        </div>
+                                        <p>6 plongées, cours théoriques, plongées techniques, assurance</p>
+                                        <p><span>Pré requis :</span> Niveau 2 ou Open water avec 10 plongées en autonomie validées</p>
+                                        <span class="prices__divider"></span>
+                                    </div>
+                                    
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Validation niveau 3</h3>
+                                            <span class="prices__number">260 €</span>
+                                        </div>
+                                        <p>2 plongées, cours théoriques, assurance RIFA</p>
+                                        <p><span>Pré requis :</span> PA 40 avec 10 plongées en autonomie entre 20 et 40 mètres validées</p>
+                                        <span class="prices__divider"></span>
+                                    </div>
+                                    
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">R.I.F.A</h3>
+                                            <span class="prices__number">110 €</span>
+                                        </div>
+                                        <p>1 journée, cours théoriques, cours pratiques.</p>
+                                        <span class="prices__divider"></span>
+                                    </div>
+                                    
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Carte de niveau FFESSM/CMAS</h3>
+                                            <span class="prices__number">20 €</span>
+                                        </div>
+                                        <span class="prices__divider"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!--==================== PRICES 5 ====================-->
+                            <div class="prices__content prices__close">
+                                <div class="prices__header">
+                                    <i class="ri-bubble-chart-fill prices__icon"></i>
+                                    <div>
+                                        <h1 class="prices__title">Formation Junior</h1>
+                                        <span class="prices__subtitle">Si vous n'avez jamais plongé</span>
+                                    </div>
+                                    <i class="ri-arrow-down-s-line prices__icon prices__arrow"></i>
+                                </div>
+                                
+                                <div class="prices__list grid">
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Plongeur de Bronze</h3>
+                                            <span class="prices__number">290 €</span>
+                                        </div>
+                                        <p>4 plongées cours théoriques, carnet de plongée, diplôme, assurances.</p>
+                                        <span class="prices__divider"></span>
+                                    </div>
+                                    
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Plongeur d'Argent</h3>
+                                            <span class="prices__number">290 €</span>
+                                        </div>
+                                        <p>4 plongées cours théoriques, carnet de plongée, diplôme, assurances.</p>
+                                        <span class="prices__divider"></span>
+                                    </div>
+                                    
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Plongeur d'Or</h3>
+                                            <span class="prices__number">350 €</span>
+                                        </div>
+                                        <p>5 plongées cours théoriques, carnet de plongée, diplôme, assurances.</p>
+                                        <span class="prices__divider"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!--==================== PRICES 5 ====================-->
+                            <div class="prices__content prices__close">
+                                <div class="prices__header">
+                                    <i class="ri-bubble-chart-fill prices__icon"></i>
+                                    <div>
+                                        <h1 class="prices__title">Assurance</h1>
+                                        <span class="prices__subtitle">Si elle n'est pas déjà comprise dans votre offre</span>
+                                    </div>
+                                    <i class="ri-arrow-down-s-line prices__icon prices__arrow"></i>
+                                </div>
+                                
+                                <div class="prices__list grid">
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Licence + Responsabilité Civile <br> FFESSM adulte</h3>
+                                            <span class="prices__number">59 €</span>
+                                        </div>
+                                        <span class="prices__divider"></span>
+                                    </div>
+                                    
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Licence + Responsabilité Civile <br> FFESSM (12 à 16 ans)</h3>
+                                            <span class="prices__number">45 €</span>
+                                        </div>
+                                        <span class="prices__divider"></span>
+                                    </div>
+                                    
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Garantie Loisirs <br> individuelle accident</h3>
+                                            <span class="prices__number">Nous <br> consulter</span>
+                                        </div>
+                                        <span class="prices__divider"></span>
+                                    </div>
+                                    
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Dive Card Basic Responsabilité <br> Civile + IA + Assistance voyage</h3>
+                                            <span class="prices__number">49 €</span>
+                                        </div>
+                                        <span class="prices__divider"></span>
+                                    </div>
+                                    
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Dive Card Family <br> (2 adultes + 2 enfants)</h3>
+                                            <span class="prices__number">109 €</span>
+                                        </div>
+                                        <span class="prices__divider"></span>
+                                    </div>
+                                    
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Dive Card Pro</h3>
+                                            <span class="prices__number">149 €</span>
+                                        </div>
+                                        <span class="prices__divider"></span>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                                                
+                        </div>
+        
+                        <div>
+                            <!--==================== PRICES 2 ====================-->
+                            <div class="prices__content prices__close">
+                                <div class="prices__header">
+                                    <i class="ri-bubble-chart-fill prices__icon"></i>
+                                    <div>
+                                        <h1 class="prices__title">Plongées Exploration</h1>
+                                        <span class="prices__subtitle">Si vous êtes un plongeur diplomé</span>
+                                    </div>
+                                    <i class="ri-arrow-down-s-line prices__icon prices__arrow"></i>
+                                </div>
+                                
+                                <div class="prices__list grid">
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <h3 class="prices__name">Plongeur encadré</h3>
+                                            <span class="prices__number">45 €</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <h3 class="prices__name">Plongeur autonome avec binôme</h3>
+                                            <span class="prices__number">35 €</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <h3 class="prices__name">La carte 10 plongées</h3>
+                                            <span class="prices__number">330 €</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--==================== PRICES 4 ====================-->
+                            <div class="prices__content prices__close">
+                                <div class="prices__header">
+                                    <i class="ri-bubble-chart-fill prices__icon"></i>
+                                    <div>
+                                        <h1 class="prices__title">Formation PADI</h1>
+                                        <span class="prices__subtitle">Si vous n'avez jamais plongé</span>
+                                    </div>
+                                    <i class="ri-arrow-down-s-line prices__icon prices__arrow"></i>
+                                </div>
+                                
+                                <div class="prices__list grid">
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Open Water Diver Padi</h3>
+                                            <span class="prices__number">430 €</span>
+                                        </div>
+                                        <p>6 sorties plongées, cours pratiques, cours théoriques, équipement, carnet de plongée, assurances.</p>
+                                        <span class="prices__divider"></span>
+                                    </div>
+                                </div>
+                                
+                                <div class="prices__list grid">
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Advanced Water Diver Padi</h3>
+                                            <span class="prices__number">360 €</span>
+                                        </div>
+                                        <p>5 plongées techniques, cours théoriques, équipement, assurances.</p>
+                                        <span class="prices__divider"></span>
+                                    </div>
+                                    
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Qualification Deep Diver</h3>
+                                            <span class="prices__number">290 €</span>
+                                        </div>
+                                        <p>4 plongées entre 20 et 40 mètres, cours théoriques, assurances.</p>
+                                        <span class="prices__divider"></span>
+                                    </div>
+                                    
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Rescue Diver Padi + EFR</h3>
+                                            <span class="prices__number">470 €</span>
+                                        </div>
+                                        <p>5 plongées techniques, 5 séances pratiques, cours théoriques,  assurances.</p>
+                                        <p>EFR : Emergency First Response (obligatoire pour valider l'advanced)</p>
+                                        <span class="prices__divider"></span>
+                                    </div>
+                                    
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Certification PADI</h3>
+                                            <span class="prices__number">79 €</span>
+                                        </div>
+                                        <p>Obligatoire pour valider le niveau</p>
+                                        <span class="prices__divider"></span>
+                                    </div>
+                                    
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Certification EFR</h3>
+                                            <span class="prices__number">39 €</span>
+                                        </div>
+                                        <p>Obligatoire pour valider le Rescue Diver</p>
+                                        <span class="prices__divider"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!--==================== PRICES 4 ====================-->
+                            <div class="prices__content prices__close">
+                                <div class="prices__header">
+                                    <i class="ri-bubble-chart-fill prices__icon"></i>
+                                    <div>
+                                        <h1 class="prices__title">Matériel</h1>
+                                        <span class="prices__subtitle">Si il n'est pas déjà compris dans votre offre</span>
+                                    </div>
+                                    <i class="ri-arrow-down-s-line prices__icon prices__arrow"></i>
+                                </div>
+                                
+                                <div class="prices__list grid">
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Location Matériel complet</h3>
+                                            <span class="prices__number">18 €</span>
+                                        </div>
+                                        <span class="prices__divider"></span>
+                                    </div>
+
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Location Lampes</h3>
+                                            <span class="prices__number">8 €</span>
+                                        </div>
+                                        <span class="prices__divider"></span>
+                                    </div>
+
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Location Ordinateurs</h3>
+                                            <span class="prices__number">8 €</span>
+                                        </div>
+                                        <span class="prices__divider"></span>
+                                    </div>
+                                    
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Location Combinaison</h3>
+                                            <span class="prices__number">6 €</span>
+                                        </div>
+                                        <span class="prices__divider"></span>
+                                    </div>
+
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Location Détendeur</h3>
+                                            <span class="prices__number">6 €</span>
+                                        </div>
+                                        <span class="prices__divider"></span>
+                                    </div>
+
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Location Gilet</h3>
+                                            <span class="prices__number">6 €</span>
+                                        </div>
+                                        <span class="prices__divider"></span>
+                                    </div>
+                                    
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Location Palmes</h3>
+                                            <span class="prices__number">2 €</span>
+                                        </div>
+                                        <span class="prices__divider"></span>
+                                    </div>
+                                    
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Location Masques</h3>
+                                            <span class="prices__number">3 €</span>
+                                        </div>
+                                        <span class="prices__divider"></span>
+                                    </div>
+                                    
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Gonflages de vos bouteilles à 200 bars</h3>
+                                            <span class="prices__number">7 €</span>
+                                        </div>
+                                        <span class="prices__divider"></span>
+                                    </div>
+                                    
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Gonflages bouteilles à 200 bars</h3>
+                                            <span class="prices__number">7 €</span>
+                                        </div>
+                                        <span class="prices__divider"></span>
+                                    </div>
+                                    
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Requalifications blocs</h3>
+                                            <span class="prices__number">50 €</span>
+                                        </div>
+                                        <span class="prices__divider"></span>
+                                    </div>
+                                    
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Visite annuelle blocs</h3>
+                                            <span class="prices__number">35 €</span>
+                                        </div>
+                                        <span class="prices__divider"></span>
+                                    </div>
+                                    
+                                    <div class="prices__data">
+                                        <div class="prices__titles">
+                                            <i class="ri-bubble-chart-line"></i>
+                                            <h3 class="prices__name">Supplément sablage intérieur</h3>
+                                            <span class="prices__number">35 €</span>
+                                        </div>
+                                        <span class="prices__divider"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        
+        <!--==================== QUESTIONS ====================-->
+        <section class="questions section" id="questions">
+            <h2 class="section__title container">
+                Certaines questions sont récurentes
+            </h2>
+            
+            <div class="questions__container container grid">
+                <div class="questions__group">
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                Faut-il une autorisation de mon médecin ?
+                            </h3>
+                        </header>
+                        
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Non, dans le cas où vous ne présentez pas de problème cardiaque ou auditif
+                                une autorisation du médecin n'est pas obligatoire.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                Ai-je besoin d'amener mon matériel ?
+                            </h3>
+                        </header>
+                        
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Nous possédons un matériel de qualité que nous prenons soin d'entretenir et nettoyer après chaque utilisation.
+                                <br>Vous pouvez louer ce matériel si besoin lorsque la location n'est pas déjà comprise avec l'activité que vous souhaitez effectuer.
+                                
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                Faites-vous des tarifs de groupe ?
+                            </h3>
+                        </header>
+                        
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Oui pour les réservations effectuée par un groupe de 8 plongeurs une réduction de 10% est attribuée sur les plongées d'exploration.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="questions__group">
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                À partir de quel âge mon enfant peut-il faire de la plongée ?
+                            </h3>
+                        </header>
+                        
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Nous acceptons les enfants à partir de l'âge de 12 ans.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                Est-il possible de choisir le site de plongée ?
+                            </h3>
+                        </header>
+                        
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Oui, si les conditions de plongée y sont favorables et que le groupe est d'accord alors vous pouvez choisir le site d'exploration.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                Une autre question ?
+                            </h3>
+                        </header>
+                        
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Contactez nous par téléphone ou par mail, nous y répondrons.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <!--==================== CONTACT ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Nous contacter</h2>
+            
+            <div class="contact__container container grid">
+                <div class="contact__box">
+                    <h2 class="contact__title">
+                        N'hésitez pas à rentrer en contact
+                        <br> via les informations suivante.
+                    </h2>
+                    
+                    <div class="contact__data">
+                        <div class="contact__information">
+                            <h3 class="contact__subtitle">Appelez nous ou laissez un message</h3>
+                            <span class="contact__description">
+                                <i class="ri-phone-line contact__icon"></i>
+                                06 01 02 03 04
+                            </span>
+                        </div>
+                        
+                        <div class="contact__information">
+                            <h3 class="contact__subtitle">Écrivez nous par mail</h3>
+                            <span class="contact__description">
+                                <i class="ri-mail-line contact__icon"></i>
+                                clubdeplonge@email.com
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                
+                <form action="https://formsubmit.co/jtoubon96@gmail.com" method="POST" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        
+                        
+                    </div>
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/tl-plonge/responsive-travel-website-main/index.html#contact">
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Email</label>
+                        <input type="email" name="email" class="contact__input" required>
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Objet</label>
+                        <input type="text" name="_subject" class="contact__input">
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Message</label>
+                        <textarea name="message" id="" cols="0" rows="5" class="contact__input" required></textarea>
+                    </div>
+                    
+                    <div>
+                        <button type="submit" class="button button--flex contact__send">
+                            Envoyer
+                            <i class="ri-mail-send-line button__icon"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <!--==================== SPONSORS ====================-->
+    <section class="sponsor section">
+        <div class="sponsor__container container grid">
+            <div class="sponsor__content">
+                <img src="assets/img/sponsors1.png" alt="" class="sponsor__img">
+            </div>
+            <div class="sponsor__content">
+                <img src="assets/img/sponsors2.png" alt="" class="sponsor__img">
+            </div>
+            <div class="sponsor__content">
+                <img src="assets/img/sponsors3.png" alt="" class="sponsor__img">
+            </div>
+            <div class="sponsor__content">
+                <img src="assets/img/sponsors4.png" alt="" class="sponsor__img">
+            </div>
+            <div class="sponsor__content">
+                <img src="assets/img/sponsors5.png" alt="" class="sponsor__img">
+            </div>
+        </div>
+    </section>
+    
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content grid">
+                <div class="footer__data">
+                    <h3 class="footer__title">Toulon Plongée</h3>
+                    <p class="footer__description">Vous choisissez de plonger, <br> on vous offre l'expérience.</p>
+                    <div>
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                            <i class="ri-youtube-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">L'équipe</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="#home" class="footer__link">Accueil</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#blog" class="footer__link">Actualités</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#contact" class="footer__link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Les activités</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="#about" class="footer__link">Présentation</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#prices" class="footer__link">Tarifs</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#questions" class="footer__link">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">
+                        Nous acceptons toutes les cartes de crédit
+                    </h3>
+                    
+                    <div class="footer__cards">
+                        <img src="assets/img/card1.png" alt="" class="footer__card">
+                        <img src="assets/img/card2.png" alt="" class="footer__card">
+                        <img src="assets/img/card3.png" alt="" class="footer__card">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__rights">
+                <p class="footer__copy">&#169; 2021 Toulon Plongée. Tous droits réservés.</p>
+                <div class="footer__terms">
+                    <a href="#" class="footer__terms-link">Mentions légales</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+    
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
