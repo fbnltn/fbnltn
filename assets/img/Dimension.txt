@@ -1,0 +1,33 @@
+1 - home1.jpg (2200 x 1280)
+2 - home2.jpg (600 x 400)
+
+3 - about1.jpg (400 x 600)
+4 - about2.jpg (600 x 400)
+
+5 - discover1.jpg (400 x 600)
+6 - discover2.jpg (400 x 600)
+7 - discover3.jpg (400 x 600)
+8 - discover4.jpg (400 x 600)
+9 - discover5.jpg (400 x 600)
+
+10 - experience1.jpg (600 x 400)
+11 - experience1.jpg (600 x 400)
+12 - experience3.jpg (600 x 400)
+
+13 - faune1.jpg (600 x 400)
+14 - faune2.jpg (600 x 400)
+15 - faune3.jpg (600 x 400)
+16 - faune4.jpg (600 x 400)
+17 - faune5.jpg (600 x 400)
+18 - faune6.jpg (600 x 400)
+19 - faune7.jpg (600 x 400)
+
+20 - blog1.jgp (600 x 400)
+21 - blog2.jgp (600 x 400)
+
+22 - card1.jgp (600 x 400)
+23 - card2.jgp (600 x 400)
+24 - card3.jgp (600 x 400)
+
+
+25 - favicon.png --> Code couleur  rgb(20, 68, 92);
